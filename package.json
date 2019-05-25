@@ -1,8 +1,9 @@
 {
   "name": "@jimpick/react-command-router",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Simple router for matching cli commands",
   "main": "dist/commandRouter.js",
+  "module": "./commandRouter.js",
   "type": "module",
   "scripts": {
     "build": "babel *.js --out-dir ./dist",
